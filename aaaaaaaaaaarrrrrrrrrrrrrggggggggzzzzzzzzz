@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+
+
+import sys
+import colors as c
+
+
+
+print(sys.argv)
+print('You have',len(sys.argv),'arguments.')
+for index in len(sys.argv):
+    print(Arrrrrgument number ', index ':', sys.argv [index]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
