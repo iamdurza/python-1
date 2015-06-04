@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+import colors as c
+
+
+
+print(c.clear + c.red + '''
+thought whoeth wants to = the side of the bridge
+other, must pass the test of questions 3
+''' + c.reset)
+
+
+print(c.violet + ''' What = yo name boyyyyy''' + c.reset)
+name = input("> " + c.base3)
+print(c.reset)
+
+
+print(c.magenta + '''Vut = yo quest my homie''' + c.reset)
+quest = input("> " + c.base3)
+print(c.reset)
+
+if name == 'lancelot' or name == 'galahad':
+    print(c.orange + '''What is thoutes favorite colour?''' + c.reset)
+    colour = input("> " + c.base3) 
+    print(c.reset)
+elif name == 'robin':
+    print(c.black + '''What is the average wing speed of an 
+    unburdened swallow''' + c.reset)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
