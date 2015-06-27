@@ -5,15 +5,6 @@ cyan = "\033[0;36m"
 
 
 
-
-
-
-
-
-
-
-
-
 print(red + 'hello' + cyan + ' world')
 
 
