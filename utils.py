@@ -1,6 +1,6 @@
 """This my awesome utility kitchen sink. Don't judge me."""
 
-import colors as 
+import colors as c 
 
 
 
