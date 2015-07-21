@@ -4,8 +4,9 @@ import colors as c
 
 
 print(c.clear + c.magenta + 'Hi, what is your name?' + c.reset)
+print(c.reset + c.blue + 'Name' +c.reset)
 
-
+name = input("--> ")
 
 
 
