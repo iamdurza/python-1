@@ -8,9 +8,12 @@ print(c.reset + c.blue + 'Name' +c.reset)
 
 name = input("--> ")
 
-
-
-
+if name == 'durza':
+    print(c.reset + c.red + 'hello ' + c.reset + c.blue + 'Durza ' + c.reset +  
+    c.red + 'o grand exalted master' + c.reset)
+else:
+    print(c.clear + 
+    c.reset + c.violet + 'then beggone youuuuu!!!!' + c.reset)
 
 
 
