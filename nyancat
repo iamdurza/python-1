@@ -3,7 +3,7 @@
 import colors as c
 
 while True:
-    print(c.random_color + 'nyancat' + c.reset, end=' ')
+    print(c.random + 'nyancat' + c.reset, end=' ')
 
 
 
