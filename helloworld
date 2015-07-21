@@ -1,22 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 
-red = "\033[0;31m"
-cyan = "\033[0;36m"
-
-
-
-print(red + 'hello' + cyan + ' world')
+import colors as c
 
 
 
 
-
-
-
-
-
-
-
+print(c.clear + c.red + 'hello ' + c.blue + 'world' + c.reset)
 
 
 

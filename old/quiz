@@ -2,8 +2,13 @@
 
 import colors as c
 from utils import ask
-#import fluffy as quiz
-import thebaws as quiz
+
+
+which = ask("Fluffy or TheBaws?")
+if which == 'fluffy':
+    import fluffy as quiz
+else:
+    import thebaws as quiz
 
 print(c.clear + quiz.intro)
 
