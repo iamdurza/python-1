@@ -2,12 +2,14 @@
 
 import colors as c
 
-while True:
-    print(c.random + 'nyancat' + c.reset, end=' ')
 
+try:
+    while True:
+        print(c.random_color() + 'nyancat' + c.reset, end=' ')
 
-
-
+except KeyboardInterrupt:
+    print(c.clear)
+    exit()
 
 
 
