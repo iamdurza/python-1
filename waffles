@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 
-waffles = input("do yoyu like waffles?")
+waffles = input("do you like waffles?")
 
 if waffles == "yes":
     print("Yeah we like waffles!!!")
-
-
-
-
-
+    pancakes = input("Do you like pankakes?")
+    if pancakes == "yes":
+        print("Yeah we like Pancakes")
+        french_toast = input("do you like french toast?")
+        if french_toast == "yes":
+            print("""do do do do do can't wait to get a mouthfull""")
+        else:
+            print("Well we like franch toast")
+    else:
+        print("well we like pancakes")
+else:
+    print("well we like waffles")
 
 
 
