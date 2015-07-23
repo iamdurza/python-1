@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 waffles = input("do yoyu like waffles?")
 
 if waffles == "yes":
-  print("Yeah we like waffles!!!")
+    print("Yeah we like waffles!!!")
 
 
 
