@@ -1,7 +1,48 @@
 #!/usr/bin/env python3
 import colors as c
+import random
 
-print(c.red + '''
+print(c.red + '''Welcome to the magic 8ball! Please enter your
+questions!''' + c.reset)
+
+answers = ['Yes', 
+           'No', 
+           'Maybe.',
+           'Tots Magoats',
+           'Outlook not so good',
+           'awwww haaiiil naw',
+           'Neva in a milion years',
+           'When pigs fly',
+           'All day, all night',
+           'When lil Wayne is president :>'
+           'Most likely',
+           'Probably',
+           'Catbert, leader of the evil HR department']
+
+
+
+while True:
+    question = input('--> ' + c.yellow)
+    if question == 'bye' or question == 'goodbye':
+        print('Goodbye')
+        exit()
+    elif question == 'is obama the illuminati' or question == 'is starbucks the best thing since microwave boritos':
+        print('are u retarted? Yeeeeeeeeeeeeeeeesssssssssss' + c.reset)
+        continue
+    answer = random.choice(answers)
+    print(c.random_color() + answer + c.reset)
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 

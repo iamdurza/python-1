@@ -1,0 +1,24 @@
+waffles = input("do yoyu like waffles?")
+
+if waffles == "yes":
+  print("Yeah we like waffles!!!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
