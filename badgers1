@@ -12,7 +12,7 @@ for n in range(12):
 
 y = 3
 
-for n in range(2)
+for n in range(2):
     print(c.magenta + 'mushroom!!!!!' + c.reset)
     time.sleep(y)
 
