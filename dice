@@ -15,7 +15,6 @@ sides.append('''
 |_______|
 ''')
 
-print(sides[0])
 
 
 sides.append('''
@@ -25,7 +24,6 @@ sides.append('''
 |       |
 |_______|
 ''')
-print(sides[1])
 
 sides.append('''
  _______       
@@ -34,7 +32,6 @@ sides.append('''
 |   0   |
 |_______|
 ''')
-print(sides[2])
 
 
 sides.append('''
@@ -44,7 +41,6 @@ sides.append('''
 |  0 0  |
 |_______|
 ''')
-print(sides[3])
 
 sides.append('''
  _______       
@@ -53,7 +49,6 @@ sides.append('''
 |  0 0  |
 |_______|
 ''')
-print(sides[4])
 
 sides.append('''
  _______       
@@ -62,12 +57,11 @@ sides.append('''
 |  0 0  |
 |_______|
 ''')
-print(sides[5])
 
-
-
-
-
+while True:
+    side = random.choice(sides)
+    print(c.clear + c.random_color() + side)
+    input() 
 
 
 
