@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
+import colors as c 
+import random
+
+print(c.clear + "")
+
+
+answers = input('> ')
+random.choice()
+outcome = [
+'Yes',
+'all day all night',
+'dieeeee you eeeeeevillllll beeeeeaaaaasstttt',
+'catbert',
+'noooo',
+'when pigs fly',
+'yahhhh',
+'completely',
+'boritos',
+'"smacks"',
+'mcdonalds',
+'the same time you are',
+'i am zee maan'
+]
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(printrandom.choice(outcomes))
 
 
 
