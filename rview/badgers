@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
+import colors as c
+import time
 
 
-
-
-
-
-
-
-
-
+while True:
+     for count in range(4):
+        for count in range(12):
+            time.sleep(0.01)
+            print(c.blue + 'badgers')
+            for count in range(2):
+                time.sleep(0.333)
+                print('mushrooms')
 
 
 
