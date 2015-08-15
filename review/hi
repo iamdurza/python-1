@@ -2,11 +2,14 @@
 import colors as c
 
 
+print(c.red + 'Hi, whats your name?' + c.reset)
+name = input('> ')
 
+if name == 'durza':
+    print(c.blue + "Cool, i'm Alex! Nice to meet you!" + c.reset)
 
-
-
-
+else:
+    print(c.clear + c.red + 'Oh,its you. Bye forever.<leaves>' + c.reset)
 
 
 
