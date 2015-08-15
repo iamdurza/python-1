@@ -6,7 +6,6 @@ print(c.clear + "")
 
 
 answers = input('> ')
-random.choice()
 outcome = [
 'Yes',
 'all day all night',
@@ -26,7 +25,7 @@ outcome = [
 
 
 
-print(printrandom.choice(outcomes))
+print(random.choice(outcome))
 
 
 
