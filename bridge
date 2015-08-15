@@ -7,14 +7,29 @@ print(c.red + 'Welcome to the BRIDGE OF DEATH!!!' + c.reset)
 
 print(c.blue + 'What is your name?' + c.reset)
 
+print(c.reset + c.blue + 'Name =' + c.reset)
+name = input('--> ')
 
 
+print(c.blue + 'What is your Quest?' + c.reset)
+
+print(c.reset + c.blue + 'Quest =' + c.reset)
+quest = input('--> ')
 
 
+if name == 'lancelot':
+    print(c.violet + 'What is yo favorite color' + c.reset)    
+    print(c.violet + 'favorite color =' + c.reset)
+    favoritecolor = input('--> ')
+else:
+    print(c.black + 'What is the capital of assyria?' + c.reset)
+    capitalofassyria = input('--->')
+    print(c.red + 'aaaaaaggghhhhhh' + c.reset)
 
-
-
-
+    if favoritecolor == 'blue':
+        print(c.yellow + 'you may pass' = c.reset)
+    else: 
+        print(c.black + 'aaaaaaaaaghhhhhhhh' + c.reset)
 
 
 
