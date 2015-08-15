@@ -17,7 +17,7 @@ print(c.reset + c.blue + 'Quest =' + c.reset)
 quest = input('--> ')
 
 
-if name == 'lancelot':
+if name == 'lancelot' or name == 'galahad':
     print(c.violet + 'What is yo favorite color' + c.reset)    
     print(c.violet + 'favorite color =' + c.reset)
     favoritecolor = input('--> ')
@@ -26,10 +26,11 @@ else:
     capitalofassyria = input('--->')
     print(c.red + 'aaaaaaggghhhhhh' + c.reset)
 
-    if favoritecolor == 'blue':
-        print(c.yellow + 'you may pass' = c.reset)
-    else: 
-        print(c.black + 'aaaaaaaaaghhhhhhhh' + c.reset)
+if favoritecolor == 'blue':
+    print(c.red + 'you may pass' + c.reset)
+
+
+
 
 
 
