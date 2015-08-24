@@ -2,7 +2,7 @@
 import colors as c
 
 
-print(c.red + 'Hello' + c.reset + c.blue + ' World' + c.reset)
+print(c.clear + c.random() + 'Hello' + c.reset + c.random() + ' World' + c.reset)
 
 
 
