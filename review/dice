@@ -2,7 +2,7 @@
 import colors as c
 import random 
 
-
+while True:
 print(c.clear + '')
 
 dice = input('> ')
