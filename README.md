@@ -18,6 +18,9 @@ cd = exit all directories to home
 vi = enter vi
 mkdir bin = make bin directory
 pwd = show where you are
+cmatrix = matrix shell
+sl = train
+sl-h = train crossing
 
 
 
