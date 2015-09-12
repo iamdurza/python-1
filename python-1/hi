@@ -10,10 +10,14 @@ name = input(ask)
 if name == 'durza':
     print(c.magenta + 'Oh hi! Nice to meet you!' + c.reset)
 
+
+elif name == 'ninja turtle':
+    print(c.green + "Heroes in a half shell, TURTLE POWAH!!!!!!!!" + c.reset)
+
+
 else:
     print(c.red + "Oh, it's you. 'leaves'" + c.reset) 
-
-
+    
 
 
 
