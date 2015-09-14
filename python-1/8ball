@@ -20,13 +20,15 @@ answers = [
 "When pigs invent a time machine.",
 "Demon Squares.",
 "When Donald Trump's hair isn't classy.",
-
+"Don't ask me that.",
+"Pahhhleez!!!",
+"Muh hed esplode.",
 ]
 
-
-input("--> ")
-answer = random.choice(answers)
-print(answer)
+while True:
+    input("--> ")
+    answer = random.choice(answers)
+    print(answer)
 
 
 
