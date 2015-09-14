@@ -7,8 +7,8 @@ Enter Yo Questions My HomeBoyyyyyy! + c.reset
 ''')
 
 
-answers = 
-["Yes.",
+answers = [ 
+"Yes.",
 "No.",
 "Maybe.",
 "Neva, Neva, Nevaah!!",
