@@ -2,8 +2,8 @@
 import colors as c
 import random
 
-print('''c.clear + c.green + "Welcome to the magic 8ball!!!! 
-Enter Yo Questions My HomeBoyyyyyy! + c.reset
+print('''"Welcome to the magic 8ball!!!! 
+Enter Yo Questions My HomeBoyyyyyy!
 ''')
 
 
@@ -19,10 +19,17 @@ answers = [
 "Whatju jus say 2 me?",
 "When pigs invent a time machine.",
 "Demon Squares.",
+"When Donald Trump's hair isn't classy.",
+
 ]
 
 
 input("--> ")
+answer = random.choice(answers)
+print(answer)
+
+
+
 
 
 
