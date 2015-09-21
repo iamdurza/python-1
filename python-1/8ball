@@ -30,7 +30,7 @@ answers = [
 try:
     
     while True:
-        question = input('> ' + c.random_colors)
+        question = input('> ' + c.random())
         answer = random.choice(answers)
         print(answer)
     
