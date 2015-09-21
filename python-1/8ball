@@ -31,14 +31,15 @@ while True:
     print(answer)
 
 
+if 
 
 
 
 
 
 
-
-
+elif answer == "ninja turtle"
+    print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
 
 
 
