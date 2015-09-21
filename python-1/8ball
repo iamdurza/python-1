@@ -30,9 +30,9 @@ answers = [
 try:
     
     while True:
-    question = input('> ' + c.random_colors)
-    answer = random.choice(answers)
-    print(answer)
+        question = input('> ' + c.random_colors)
+        answer = random.choice(answers)
+        print(answer)
     
 except KeyboardInterrupt: 
     exit() 
