@@ -30,12 +30,16 @@ answers = [
 
 
 
+#Yoda Quote !   Try u must not no try only do 
 try:
     
     while True:
         question = input('> ' + c.random())
-        answer = random.choice(answers)
-        print(answer)
+        if "death" in question or "die" in question:
+            print(c.red + "Well that is verry morbid." + c.x)
+        else:
+            answer = random.choice(answers)
+            print(answer)
     
 except KeyboardInterrupt: 
     exit() 
