@@ -25,21 +25,24 @@ answers = [
 "Muh hed esplode.",
 ]
 
-while True:
-    input("--> ")
+
+
+try:
+    
+    while True:
+    question = input('> ' + c.random_colors)
     answer = random.choice(answers)
     print(answer)
-
-
- 
-
-
-
+    
+except KeyboardInterrupt: 
+    exit() 
 
 
 
-elif answer == "ninja turtle"
-    print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
+
+
+
+    answer == "ninja turtle" print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
 
 
 
