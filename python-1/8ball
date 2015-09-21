@@ -42,7 +42,7 @@ except KeyboardInterrupt:
 
 
 
-    answer == "ninja turtle" print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
+    #answer == "ninja turtle" print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
 
 
 
