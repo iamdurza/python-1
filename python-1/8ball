@@ -29,7 +29,7 @@ answers = [
 "#Yeet",
 
 
-def ask():
+def ask(prompt):
     question = input('> ' + c.random())
 
 
