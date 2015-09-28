@@ -44,6 +44,10 @@ try:
             print(c.magenta + "Love is beyond my power to predict" + c.x)
         elif question == 'bye' or question == 'goodbye':
             print('Goodbye')
+        elif "poop" in question:
+            print(c.o + "May u have a crappy day!" + c.reset)
+        elif question == "is obama in the illuminati":
+            print(c.r + "ARE U RETRDED? YAAAAAAAAASS!!!!" + c.reset)
         else:
             answer = random.choice(answers)
             print(answer)
