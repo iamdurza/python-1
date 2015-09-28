@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import colors as c
 import random
-import ask
 
 print('''"Welcome to the magic 8ball!!!! 
 Enter Yo Questions My HomeBoyyyyyy!
