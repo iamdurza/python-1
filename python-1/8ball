@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bi/env python3
 import colors as c
 import random
 
@@ -10,7 +10,7 @@ Enter Yo Questions My HomeBoyyyyyy!
 answers = [ 
 "Yes.",
 "No.",
-"Maybe.",
+"Maybe so!",
 "Neva, Neva, Nevaah!!",
 "When lil Wayne is president :p",  
 "Catbert.",
@@ -18,6 +18,7 @@ answers = [
          Fo Dat!''',
 "Whatju jus say 2 me?",
 "When pigs invent a time machine.",
+"Until the end of time",
 "Demon Squares.",
 "When Donald Trump's hair isn't classy.",
 "Don't ask me that.",
@@ -26,43 +27,24 @@ answers = [
 "( ͡° ͜ʖ ͡°)",
 ":D",
 "#Yeet",
-]
+
+
+def ask():
+    question = input('> ' + c.random())
 
 
 
-#Yoda Quote !   Try u must not no try only do 
+#Yoda Quote !   Try u must not no try only do     <----------------   LOOOOK
 try:
     
     while True:
-        question = input('> ' + c.random())
-        if "death" in question or "die" in question:
+        if "doom" in question or "death" in question or "die" in question:
             print(c.red + "Well that is verry morbid." + c.x)
+        elif "love" in question:
+            print(c.magenta + "Love is beyond my power to predict" + c.x)
         else:
             answer = random.choice(answers)
             print(answer)
     
 except KeyboardInterrupt: 
     exit() 
-
-
-
-
-
-
-    #answer == "ninja turtle" print(c.green + "Heroes in a half shell, TURTLE POWAH!!!" + c.reset)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
