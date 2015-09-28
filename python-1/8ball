@@ -31,7 +31,7 @@ answers = [
 
 def ask(prompt):
     question = input('> ' + c.random())
-
+    return answer
 
 
 #Yoda Quote !   Try u must not no try only do     <----------------   LOOOOK
