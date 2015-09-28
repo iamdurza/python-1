@@ -31,7 +31,7 @@ answers = [
 
 
 def ask(prompt):
-    question = input(prompt)
+    question = input(prompt).strip().lower()
     return answer
 
 
@@ -43,6 +43,8 @@ try:
             print(c.red + "Well that is verry morbid." + c.x)
         elif "love" in question:
             print(c.magenta + "Love is beyond my power to predict" + c.x)
+        elif question == 'bye' or question == 'goodbye':
+            print('Goodbye')
         else:
             answer = random.choice(answers)
             print(answer)
