@@ -28,7 +28,7 @@ answers = [
 "( ͡° ͜ʖ ͡°)",
 ":D",
 "#Yeet",
-
+]
 
 def ask(prompt):
     question = input(prompt).strip().lower()
